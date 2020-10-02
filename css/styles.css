@@ -14,6 +14,7 @@ body {
 }
 
 .aside-bar {
+  position: relative;
   background-color: #1e2939;
   width: 370px;
   padding-top: 40px;
@@ -21,8 +22,19 @@ body {
 }
 
 .my-photo {
-  width: 370px;
+  width: 270px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  margin-left: 50px;
 }
+
+/* .el-barto {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+
+  width: 270px;
+} */
 
 .wrapper {
   background-color: #ffffff;
@@ -54,11 +66,18 @@ body {
   margin-right: 10px;
 }
 .con-emails {
+  text-decoration: none;
   color: #666e79;
+
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
 }
+
+.con-emails:hover {
+  color: #2196f3;
+}
+
 .tech-skills-title {
   color: #ffffff;
   font-size: 22px;
@@ -222,4 +241,8 @@ body {
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 15px;
+}
+
+.education-margin {
+  margin-top: 65px;
 }
