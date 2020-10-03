@@ -26,6 +26,7 @@ body {
   border-radius: 50%;
   border: 2px solid #ffffff;
   margin-left: 50px;
+  margin-right: 50px;
 }
 
 /* .el-barto {
@@ -97,7 +98,8 @@ body {
   font-weight: 400;
   line-height: 24px;
   margin-left: 15px;
-  color: #ff6b08;
+  /* color: #ff6b08; */
+  color: #2196f3;
 }
 
 .sidebar-list-text {
@@ -127,7 +129,8 @@ body {
   font-weight: 400;
   line-height: 24px;
   margin-left: 15px;
-  color: #ff6b08;
+  /* color: #ff6b08; */
+  color: #2196f3;
 }
 
 .aboutme-container {
@@ -204,7 +207,8 @@ body {
 }
 
 .company {
-  color: #ff7d26;
+  color: #2196f3;
+  /* color: #ff7d26; */
 }
 
 .prof-time {
@@ -233,7 +237,8 @@ body {
 .univer {
   margin-top: 20px;
   margin-bottom: 15px;
-  color: #ff7d26;
+  color: #2196f3;
+  /* color: #ff7d26; */
 }
 
 .univer-title {
